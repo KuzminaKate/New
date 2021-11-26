@@ -1,6 +1,6 @@
 import random
-a=1
-b=100
+a=input("Введите a: ")
+b=input("Введите b: ")
 c=[]
 for i in range(b):
     r=random.randint(a,b)
