@@ -6,5 +6,5 @@ for i in range(b):
     r=random.randint(a,b)
     c.append(r)
 print("Получившийся массив: ", c)
-d=max(c)
-print("Максимальное число в масиве: ", d)
+d=min(c)
+print("Минимальное число в масиве: ", d)
